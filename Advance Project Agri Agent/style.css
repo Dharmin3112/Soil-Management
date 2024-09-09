@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.head {
+    height: 10vh;
+    width: 100%;
+    background-color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav li {
+    padding-left: 5vw;
+    padding-top: 2.5vh;
+    /* margin: auto; */
+    list-style: none;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+
+}
+
+.nav li :hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 2vh;
+    border-radius: 5px;
+
+
+}
+
+
+
+.srbr {
+    padding-right: 5vw;
+    padding-top: 2.5vh;
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    background: url(https:wallpapercave.com/wp/wp1950223.jpg);
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.wl {
+
+    font-size: 4.5vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px red;
+
+
+
+}
+
+.box1 {
+
+    background-blend-mode: darken;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 220px;
+    width: 330px;
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+    left: 15PX;
+    top: 15PX;
+}
+
+
+.soils {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: #ffffff;
+    padding-top: 50;
+
+
+}
+
+.type1 {
+    font-size: 3.5vh;
+}
+
+.ab {
+    flex-wrap: wrap;
+}
+
+content {
+    box-sizing: border-box;
+    /* width: 100vw; */
+}
+
+.ani {
+    display: flex;
+    transform: translateY(30vh);
+    justify-content: center;
+
+}
+
+footer {
+    margin: 3vh;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-left: 2vw;
+}
+
+.copy {
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px black;
+    font-size: 1vh;
+    text-align: center;
+}
